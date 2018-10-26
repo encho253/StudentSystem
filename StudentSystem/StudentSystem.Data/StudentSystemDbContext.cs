@@ -15,5 +15,10 @@ namespace StudentSystem.Data
         public DbSet<Role> Roles { get; set; }
 
         public DbSet<Task> Tasks { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+           
+        }
     }
 }
